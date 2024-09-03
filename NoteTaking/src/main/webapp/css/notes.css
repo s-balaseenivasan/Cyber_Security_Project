@@ -1,0 +1,32 @@
+.bg-custom {
+    background-color: rgb(44, 62, 80);
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 20px;
+    color: white;
+}
+
+.nav-custom .nav-item:hover .nav-link {
+    background: white;
+    color: #1abc9c;
+    border-radius: 10px;
+}
+
+.no-select {
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* Non-prefixed version, currently supported by Chrome, Edge, Opera, and Firefox */
+}
+
+body{
+    background: #1abc9c /* Optional: makes sure the background image stays fixed during scroll */
+}
+.card{
+    background-color: rgb(141, 236, 180, 0.8);
+}
+.navbar-brand{
+    color: white;
+}
+
